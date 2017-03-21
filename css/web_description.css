@@ -1,0 +1,327 @@
+.page-header {
+	margin-top: -0.5%;
+	padding-top: 0.5%;
+}
+.imageHeader {
+
+	width: 267px;
+	height: 120px;
+}
+
+.title {
+	margin-left: 5%;
+}
+.smallTitle {
+	color:white;
+	font-style: italic;
+}
+
+.subTitle {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 15px 10px 10px 10px;
+
+}
+.bodyContent {
+	margin-left: 5%;
+	width: 90%;
+}
+
+
+.arrayWidth {
+	width:20%;
+	height: 100px;
+}
+.images {
+	width: 400px;
+	height: 300px;
+	transform:rotateZ(0deg) ;
+	transition:1s;
+}
+
+.images:hover {
+
+	transform:rotateZ(10deg) ;
+    transition:2s;
+}
+.imageProfil {
+	width: 85px;
+	height: 85px;
+	margin-left:4%;
+	transform:rotateZ(0deg) ;
+	transition:1s;
+}
+.imageProfil:hover {
+
+	transform:rotateZ(10deg) ;
+    transition:2s;
+}
+
+.panel-body {
+	padding: 10px;
+}
+
+.panel-default>.panel-heading { 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebf1f6+0,abd3ee+0,89c3eb+0,d5ebfb+0 */
+background: #ebf1f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #ebf1f6 0%, #abd3ee 0%, #89c3eb 0%, #d5ebfb 0%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ebf1f6 0%,#abd3ee 0%,#89c3eb 0%,#d5ebfb 0%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ebf1f6 0%,#abd3ee 0%,#89c3eb 0%,#d5ebfb 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
+transition:2s;
+
+}
+.panel-default>.panel-heading:hover {
+
+	background:#2989d8;
+	color:white;
+	transition:2s;
+}
+
+.panelEnter {
+
+	padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+	background:#2989d8;
+	color:white;
+	transition:1s;
+	font-weight: bold;
+}
+.detailEnter {
+
+	padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+	background:#696969;
+	color:white;
+	cursor: pointer;
+	transition:1s;
+	font-weight: bold;
+}
+
+.pluginTitle {
+	font-size: 14px;
+	font-weight: bold;	
+
+}
+.description {
+	font-size: 12px;
+	font-weight: bold;	
+}
+.objective {
+	font-style: italic;
+	text-align: justify;
+	padding: 0px 10px 10px 0px;
+}
+.list {
+	margin-left: -2%;
+}
+.header {
+	
+margin-left: 5%;	
+width: 90%;
+height: 120px;
+margin-bottom: 1%;
+color:white;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #207cca 46%, #207cca 46%, #2989d8 62%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#207cca 46%,#207cca 46%,#2989d8 62%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#207cca 46%,#207cca 46%,#2989d8 62%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.panel-footer{
+
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.panel-footer:hover{
+
+	cursor:pointer;
+}
+.modaleTitle {
+
+	font-style: italic;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10%;
+}
+.computerSkills {
+
+	width:80%;
+	margin-left: 10%;
+}
+.modalSubTitle {
+
+	font-style: italic;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 35px;
+
+}
+
+
+.table>tbody>tr>td {
+
+	border-top:none;
+	
+}
+
+
+.tdEnter {
+	color:#1e5799;
+	font-weight:bold;
+	transition:2s;
+}
+
+.tdLeave {
+	
+	border-radius: 25px;
+	margin-left:0px;
+	transition:2s;
+}
+
+.tdBorder:hover {
+	background-color: #eee;
+	border-radius: 10px;
+	transition:2s;
+}
+
+.liEnter {
+	margin-left:10px;
+	width:100%; 
+	transition:0.5s;
+	
+}
+.liLeave {
+	
+	margin-left:0px;
+	width:100%;
+	font-weight: none;
+	transition:1s;
+}
+
+.effect {
+
+	margin-left:50px;
+	transition:2s;
+}
+.reverseEffect {
+	margin-left:0px;
+	transition:1s;
+}
+.modalSubTitle > ul > li {
+	
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: -5%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.modalSubTitle > ul > div > div >li {
+	
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: -5%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.titleDescription {
+
+	font-weight: bold;
+	font-size:13px;
+}
+
+.descriptionContent {
+	font-style: italic;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.societyName {
+
+	font-weight: bold;
+}
+.projectSubject {
+
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.imageDesc {
+
+	width:100%;
+	transform:rotateZ(0deg) ;
+	transition:1s;
+}
+
+.imageDesc:hover {
+
+	
+	transform:rotateZ(7deg) ;
+	transition:2s;
+}
+
+.lineVideo {
+
+	margin-top: -200px;
+    width: 1%;
+    height: 300px;
+}
+
+
+
+.flip-container {
+	perspective: 1000;
+	
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+
+	}
+
+
+/* flip speed goes here */
+.flipper {
+	transition: 1.5s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+	margin-top: -120px;
+	
+}
+.first {
+	
+}
+.second {
+	
+}
